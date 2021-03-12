@@ -1,0 +1,138 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "dbt_daily": "https://raw.githubusercontent.com/hotavocado/DBT-LM-KD/master/activities/dbt_daily/items/",
+        "emotions_instructions": {
+            "@id": "dbt_daily:emotions_instructions",
+            "@type": "@id"
+        },
+        "happiness": {
+            "@id": "dbt_daily:happiness",
+            "@type": "@id"
+        },
+        "sadness": {
+            "@id": "dbt_daily:sadness",
+            "@type": "@id"
+        },
+        "anxiety_fear": {
+            "@id": "dbt_daily:anxiety_fear",
+            "@type": "@id"
+        },
+        "anger": {
+            "@id": "dbt_daily:anger",
+            "@type": "@id"
+        },
+        "shame": {
+            "@id": "dbt_daily:shame",
+            "@type": "@id"
+        },
+        "loneliness": {
+            "@id": "dbt_daily:loneliness",
+            "@type": "@id"
+        },
+        "guilt": {
+            "@id": "dbt_daily:guilt",
+            "@type": "@id"
+        },
+        "pride": {
+            "@id": "dbt_daily:pride",
+            "@type": "@id"
+        },
+        "target_behaviors_instructions": {
+            "@id": "dbt_daily:target_behaviors_instructions",
+            "@type": "@id"
+        },
+        "suicide_thoughts": {
+            "@id": "dbt_daily:suicide_thoughts",
+            "@type": "@id"
+        },
+        "suicide_urges": {
+            "@id": "dbt_daily:suicide_urges",
+            "@type": "@id"
+        },
+        "suicide_actions": {
+            "@id": "dbt_daily:suicide_actions",
+            "@type": "@id"
+        },
+        "suicide_actions_details": {
+            "@id": "dbt_daily:suicide_actions_details",
+            "@type": "@id"
+        },
+        "selfharm_urges": {
+            "@id": "dbt_daily:selfharm_urges",
+            "@type": "@id"
+        },
+        "selfharm_actions": {
+            "@id": "dbt_daily:selfharm_actions",
+            "@type": "@id"
+        },
+        "selfharm_actions_details": {
+            "@id": "dbt_daily:selfharm_actions_details",
+            "@type": "@id"
+        },
+        "anxiety_spirals": {
+            "@id": "dbt_daily:anxiety_spirals",
+            "@type": "@id"
+        },
+        "anxiety_spirals_impact": {
+            "@id": "dbt_daily:anxiety_spirals_impact",
+            "@type": "@id"
+        },
+        "difficulty_sleep": {
+            "@id": "dbt_daily:difficulty_sleep",
+            "@type": "@id"
+        },
+        "bad_validation": {
+            "@id": "dbt_daily:bad_validation",
+            "@type": "@id"
+        },
+        "bad_validation_details": {
+            "@id": "dbt_daily:bad_validation_details",
+            "@type": "@id"
+        },
+        "drug_alcohol": {
+            "@id": "dbt_daily:drug_alcohol",
+            "@type": "@id"
+        },
+        "drug_alcohol_details": {
+            "@id": "dbt_daily:drug_alcohol_details",
+            "@type": "@id"
+        },
+        "conflict": {
+            "@id": "dbt_daily:conflict",
+            "@type": "@id"
+        },
+        "conflict_details": {
+            "@id": "dbt_daily:conflict_details",
+            "@type": "@id"
+        },
+        "dbt_skills_instructions": {
+            "@id": "dbt_daily:dbt_skills_instructions",
+            "@type": "@id"
+        },
+        "mindfulness_skills": {
+            "@id": "dbt_daily:mindfulness_skills",
+            "@type": "@id"
+        },
+        "interpersonal_skills": {
+            "@id": "dbt_daily:interpersonal_skills",
+            "@type": "@id"
+        },
+        "emotion_regulation": {
+            "@id": "dbt_daily:emotion_regulation",
+            "@type": "@id"
+        },
+        "distress_tolerance": {
+            "@id": "dbt_daily:distress_tolerance",
+            "@type": "@id"
+        },
+        "notes": {
+            "@id": "dbt_daily:notes",
+            "@type": "@id"
+        },
+        "thank_you": {
+            "@id": "dbt_daily:thank_you",
+            "@type": "@id"
+        }
+    }
+}

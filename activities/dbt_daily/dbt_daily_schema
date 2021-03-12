@@ -1,0 +1,218 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/DBT-LM-KD/master/activities/dbt_daily/dbt_daily_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "dbt_daily_schema",
+    "skos:prefLabel": "Daily Diary Card",
+    "schema:description": "Record your emotions, target behaviors, and DBT skills used for today",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "emotions_instructions",
+                "isAbout": "emotions_instructions",
+                "isVis": true
+            },
+            {
+                "variableName": "happiness",
+                "isAbout": "happiness",
+                "isVis": true
+            },
+            {
+                "variableName": "sadness",
+                "isAbout": "sadness",
+                "isVis": true
+            },
+            {
+                "variableName": "anxiety_fear",
+                "isAbout": "anxiety_fear",
+                "isVis": true
+            },
+            {
+                "variableName": "anger",
+                "isAbout": "anger",
+                "isVis": true
+            },
+            {
+                "variableName": "shame",
+                "isAbout": "shame",
+                "isVis": true
+            },
+            {
+                "variableName": "loneliness",
+                "isAbout": "loneliness",
+                "isVis": true
+            },
+            {
+                "variableName": "guilt",
+                "isAbout": "guilt",
+                "isVis": true
+            },
+            {
+                "variableName": "pride",
+                "isAbout": "pride",
+                "isVis": true
+            },
+            {
+                "variableName": "target_behaviors_instructions",
+                "isAbout": "target_behaviors_instructions",
+                "isVis": true
+            },
+            {
+                "variableName": "suicide_thoughts",
+                "isAbout": "suicide_thoughts",
+                "isVis": true
+            },
+            {
+                "variableName": "suicide_urges",
+                "isAbout": "suicide_urges",
+                "isVis": true
+            },
+            {
+                "variableName": "suicide_actions",
+                "isAbout": "suicide_actions",
+                "isVis": true
+            },
+            {
+                "variableName": "suicide_actions_details",
+                "isAbout": "suicide_actions_details",
+                "isVis": "suicide_actions == 1"
+            },
+            {
+                "variableName": "selfharm_urges",
+                "isAbout": "selfharm_urges",
+                "isVis": true
+            },
+            {
+                "variableName": "selfharm_actions",
+                "isAbout": "selfharm_actions",
+                "isVis": true
+            },
+            {
+                "variableName": "selfharm_actions_details",
+                "isAbout": "selfharm_actions_details",
+                "isVis": "selfharm_actions == 1"
+            },
+            {
+                "variableName": "anxiety_spirals",
+                "isAbout": "anxiety_spirals",
+                "isVis": true
+            },
+            {
+                "variableName": "anxiety_spirals_impact",
+                "isAbout": "anxiety_spirals_impact",
+                "isVis": true
+            },
+            {
+                "variableName": "difficulty_sleep",
+                "isAbout": "difficulty_sleep",
+                "isVis": true
+            },
+            {
+                "variableName": "bad_validation",
+                "isAbout": "bad_validation",
+                "isVis": true
+            },
+            {
+                "variableName": "bad_validation_details",
+                "isAbout": "bad_validation_details",
+                "isVis": "bad_validation == 1"
+            },
+            {
+                "variableName": "drug_alcohol",
+                "isAbout": "drug_alcohol",
+                "isVis": true
+            },
+            {
+                "variableName": "drug_alcohol_details",
+                "isAbout": "drug_alcohol_details",
+                "isVis": "drug_alcohol == 1"
+            },
+            {
+                "variableName": "conflict",
+                "isAbout": "conflict",
+                "isVis": true
+            },
+            {
+                "variableName": "conflict_details",
+                "isAbout": "conflict_details",
+                "isVis": "conflict.includes(1) || conflict.includes(2) || conflict.includes(3) || conflict.includes(4)"
+            },
+            {
+                "variableName": "dbt_skills_instructions",
+                "isAbout": "dbt_skills_instructions",
+                "isVis": true
+            },
+            {
+                "variableName": "mindfulness_skills",
+                "isAbout": "mindfulness_skills",
+                "isVis": true
+            },
+            {
+                "variableName": "interpersonal_skills",
+                "isAbout": "interpersonal_skills",
+                "isVis": true
+            },
+            {
+                "variableName": "emotion_regulation",
+                "isAbout": "emotion_regulation",
+                "isVis": true
+            },
+            {
+                "variableName": "distress_tolerance",
+                "isAbout": "distress_tolerance",
+                "isVis": true
+            },
+            {
+                "variableName": "notes",
+                "isAbout": "notes",
+                "isVis": true
+            },
+            {
+                "variableName": "thank_you",
+                "isAbout": "thank_you",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "emotions_instructions",
+            "happiness",
+            "sadness",
+            "anxiety_fear",
+            "anger",
+            "shame",
+            "loneliness",
+            "guilt",
+            "pride",
+            "target_behaviors_instructions",
+            "suicide_thoughts",
+            "suicide_urges",
+            "suicide_actions",
+            "suicide_actions_details",
+            "selfharm_urges",
+            "selfharm_actions",
+            "selfharm_actions_details",
+            "anxiety_spirals",
+            "anxiety_spirals_impact",
+            "difficulty_sleep",
+            "bad_validation",
+            "bad_validation_details",
+            "drug_alcohol",
+            "drug_alcohol_details",
+            "conflict",
+            "conflict_details",
+            "dbt_skills_instructions",
+            "mindfulness_skills",
+            "interpersonal_skills",
+            "emotion_regulation",
+            "distress_tolerance",
+            "notes",
+            "thank_you"
+        ],
+        "shuffle": false
+    }
+}
